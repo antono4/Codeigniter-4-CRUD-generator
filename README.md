@@ -1,66 +1,66 @@
-# Codeigniter-4-CRUD-generator
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-> **Created by Antono**
+<h1 align="center">Project 👋</h1>
 
-ADEL CCG is an easy open-source intuitive web app to create AdminLTE4 -Bootstrap 5- dashboards with CRUD operations in php.
-The CRUD application is able to manage data from any MySQL database, however complex the structure and volume of data are.
-It ships with powerful API, Controller, Model, View generator to speed up the development of your CMS, CRM or other back-office system. 
+<p align="center">
+  <strong></strong>
+</p>
 
-# Upgrades: Fix & Features
-## Core
-- Integrated with AdminLTE4 -Bootstrap 5- (https://github.com/MGatner/adminlte4)
-- add Unique, minlength Validation 
-- use CodeIgniter multi-Language (please read readme.txt in  '/downloads/template.zip')
-- add minlength in genertor page, remove maxlength (defined by database)
-- auto selected input type 'Date' if table field is date, time, timestamp, year
-- auto insert Default Crud-name & Crud-Title after 'Select Table'
-- disable 'CRUD language'
-
-## View
-- Integrated with AdminLTE4 -Bootstrap 5- (https://github.com/MGatner/adminlte4)
-- Support RTL (use  dir="rtl" lang="ar" + adminlte.rtl.min.css in Views\layout\header.php) 
-- Support Dark mode (Replace light by dark in classes in Views\layout\master.php + Views\layout\navbar.php + Views\layout\sidebar.php ) 
-- use single modal dialog for Add & Edit. for fixed 'dom duplicate error'
-- use layout template. copy layout folder to 'App/Views'
-- replace function add() & edit() with function save()
-- add input 'unique' type validate,
-- add class 'invalid-feedback' for response.error-message (not have in old code)
-- edit alert popup
-- fixed (edit, delete button) language text
-
-## Controller
-- New Style Action Button (edit, delete button) : var $ops in function getAll() 
-- fixed (edit, delete button) language text
-
-## Next Features!
-- add Action 'copy' for clone data
-
-# Install
-1. extract template-bs5.zip in 'downloads'
-2. copy layout folder to '{youProject}/App/Views/'
-3. if you want make empty view. looking viewtemplate.php in 'example'
-4. If you want to change the default site language
-- copy any folder in 'Language' to '{youProject}/App/Language/'
-- change the language code $defaultLocale in 'App/Config/App.php' (en','ar','th')
-- Lean Ci4 Localization in [Ci4 Docs](https://codeigniter4.github.io/userguide/outgoing/localization.html)
-
-Youtube video:
-
-[![IMAGE ALT TEXT](https://i.imgur.com/ByT3TEN.png)](https://www.youtube.com/watch?v=Oge6rGn8FpI "ADEL Codeigniter 4 CRUD generator")
-
-SS:
-
-![alt text](https://i.imgur.com/6eQOlV9.png)
-
-![alt text](https://i.imgur.com/Jb3gxs2.png)
-
-![alt text](https://i.imgur.com/ppuMReh.png)
-
-CI forum thread:
-
-https://forum.codeigniter.com/thread-77877.html
-
-
+<p align="center">
+  <a href="https://github.com/antono4/Codeigniter-4-CRUD-generator"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/Codeigniter-4-CRUD-generator-blue?logo=github"></a>
+  <a href="https://antono4.github.io/Codeigniter-4-CRUD-generator/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-29-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 11:07:32 WIB-lightgrey">
+</p>
 
 ---
 
+## 📖 Tentang
+
+Repository **`Codeigniter-4-CRUD-generator`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/Codeigniter-4-CRUD-generator/`](https://antono4.github.io/Codeigniter-4-CRUD-generator/).
+
+## 🗂️ Struktur Proyek
+
+```
+Codeigniter-4-CRUD-generator/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+```
+
+## 🛠️ Teknologi
+
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `CSS`
+- `JavaScript`
+- `PHP`
+
+> Total **29 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
+
+## 📬 Kontak
+
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/Codeigniter-4-CRUD-generator/](https://antono4.github.io/Codeigniter-4-CRUD-generator/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 11:07:32 WIB** oleh GitHub Actions .</sub>
