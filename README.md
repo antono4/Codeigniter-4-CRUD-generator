@@ -1,1 +1,30 @@
-Last updated: 2026-09-03 05:35:57 WIB
+# Codeigniter-4-CRUD-generator
+
+
+
+## 📋 Overview
+
+This repository contains **33 files** and is built with the following technologies:
+
+PHP
+
+## 🚀 Quick Start
+
+```bash
+php -S localhost:8000
+```
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+PHP
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-03 06:20:40 WIB*
